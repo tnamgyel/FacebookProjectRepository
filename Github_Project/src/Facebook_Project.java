@@ -8,6 +8,7 @@ public class Facebook_Project {
 		
 		driver.get("https://www.facebook.com/");
 		
+		driver.getTitle();
 		System.out.println("Facebook page is open");
 
 	}
